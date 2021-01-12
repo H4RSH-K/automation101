@@ -42,4 +42,3 @@ chmod +x ginit
 
 
 - You will be asked to enter your github username and password to validate the initial commit push request
-# Test : Generated using the ginit script
