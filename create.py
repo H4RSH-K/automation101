@@ -4,10 +4,10 @@ from dotenv import load_dotenv
 from selenium import webdriver
 load_dotenv()
 path = os.getenv("FILEPATH")
+email = os.getenv("EMAIL")
 username = os.getenv("USERNAME")
 password = os.getenv("PASSWORD")
-browser = os.getenv("BROWSER")
-ghost = webdriver.browser()
+ghost = webdriver.Firefox()
 ghost.maximize_window()
 ghost.get('https://github.com/login')
 
@@ -15,7 +15,7 @@ def create():
     repoName = str(sys.argv[1])
     os.makedirs(path + repoName)
     py_btn = ghost.find_elements_by_xpath("//*[@id='login_field']")[0]
-    py_btn.send_keys(username)
+    py_btn.send_keys(email)
     py_btn = ghost.find_elements_by_xpath("//*[@id='password']")[0]
     py_btn.send_keys(password)
     py_btn = ghost.find_element_by_xpath("/html/body/div[3]/main/div/div[4]/form/input[14]")
