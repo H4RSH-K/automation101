@@ -31,7 +31,7 @@ PASSWORD="your-github-password"
 FILEPATH="/path/to/your/projects/folder/"
 ```
 4. Add execution permissions to ginit script :
-
+- I guess that this step will be unnecessary, check permissions ```ls -l ginit``` look for -rwxr-xr-x, if not like this then, do this step otherwise skip this
 ```
 chmod +x ginit
 ```
