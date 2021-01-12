@@ -1,2 +1,3 @@
 # automation101
-auto like the new uploaded video of favourite youtuber
+Automating GitHub initial setup
+# AutoTestRepo : Generated using the ginit script
