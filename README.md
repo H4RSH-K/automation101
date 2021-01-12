@@ -24,12 +24,12 @@ pip install -r requirements.txt
 touch .env
 ```
 ### Format :
----
+```
 USERNAME="your-github-username"
 EMAIL="your-github-email-address"
 PASSWORD="your-github-password"
 FILEPATH="/path/to/your/projects/folder/"
----
+```
 4. Add execution permissions to ginit script :
 
 ```
