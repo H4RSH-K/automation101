@@ -38,6 +38,7 @@ chmod +x ginit
 ```
 ./ginit RepoNameHere
 ```
-
+- To make this command accessible from anywhere in the system : 
+echo "export PATH:$PATH:/path/to/the/cloned/repo" >> ~/.bash_profile
 
 - You will be asked to enter your github username and password to validate the initial commit push request
