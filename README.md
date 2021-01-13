@@ -19,14 +19,13 @@ pip install -r requirements.txt
 ```
 
 
-3. Add the github email, username, password and path to your github projects folder in the .env file (so your credentials remain hidden) :
+3. Add the github username, password and path to your github projects folder in the .env file (so your credentials remain hidden) :
 ```
 touch .env
 ```
 ### Format :
 ```
 USERNAME="your-github-username"
-EMAIL="your-github-email-address"
 PASSWORD="your-github-password"
 FILEPATH="/path/to/your/projects/folder/"
 ```
