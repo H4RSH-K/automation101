@@ -1,0 +1,13 @@
+#!/bin/bash
+echo "Let's set up .env variables"
+echo "Enter you GitHub userName"
+read username
+echo "Enter your Github password"
+read password
+echo "Where do you want your Github projects locally [eg: /home/you/where/ever/you/want] :"
+read filepath
+echo USERNAME="$username" > .env
+echo PASSWORD="$password" >> .env
+echo FILEPATH="$filepath" >> .env
+echo "You are all set to run the ginit script"
+echo "If you rerun this script it will overwrite the env variables"
