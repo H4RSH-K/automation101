@@ -2,7 +2,7 @@
 ## Automating GitHub initial setup
 
 ---
-**Note**
+**Note** 
 This is for Linux, I have no idea about other OSes, but you will need Bourne Again SHell (BASH) to run the script
 ---
 
@@ -21,9 +21,15 @@ pip install -r requirements.txt
 3. Add execution permissions to ginit script :
 - I guess that this step will be unnecessary, check permissions ```ls -l ginit``` look for -rwxr-xr-x, if not like this then, do this step otherwise skip this
 ```
-chmod +x ginit
+chmod +x ginit setupenv
 ```
-4. Make the GitHub and Local Repo by initiating the script as :
+
+4. To setup the environment variables run the setupenv file and follow along :
+```
+./setupenv
+```
+
+5. Make the GitHub and Local Repo by initiating the script as :
 ```
 ./ginit RepoNameHere
 ```
