@@ -7,7 +7,7 @@ cd $FILEPATH$1
 git config --global init.defaultBranch main
 git init
 git remote add origin https://github.com/$USERNAME/$1.git
-echo "# $1 : Generated using the ginit script" >> README.md
+echo "# $1 : ginit made it!" >> README.md
 git add .
 git commit -m "Initial Commit"
 git push -u origin main
