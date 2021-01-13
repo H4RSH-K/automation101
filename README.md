@@ -18,23 +18,12 @@ cd ginit
 pip install -r requirements.txt
 ```
 
-
-3. Add the github username, password and path to your github projects folder in the .env file (so your credentials remain hidden) :
-```
-touch .env
-```
-### Format :
-```
-USERNAME="your-github-username"
-PASSWORD="your-github-password"
-FILEPATH="/path/to/your/projects/folder/"
-```
-4. Add execution permissions to ginit script :
+3. Add execution permissions to ginit script :
 - I guess that this step will be unnecessary, check permissions ```ls -l ginit``` look for -rwxr-xr-x, if not like this then, do this step otherwise skip this
 ```
 chmod +x ginit
 ```
-5. Make the GitHub and Local Repo by initiating the script as :
+4. Make the GitHub and Local Repo by initiating the script as :
 ```
 ./ginit RepoNameHere
 ```
